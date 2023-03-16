@@ -1,7 +1,13 @@
 #include <stdio.h>
-int main()
+
+/**
+ * main - this is the main function
+ *
+ * Return: always 0
+ */
+
+int main(void)
 {
-	char word[20] ="Programming is like building a multilingual puzzle";
-	puts(word);
-	return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }

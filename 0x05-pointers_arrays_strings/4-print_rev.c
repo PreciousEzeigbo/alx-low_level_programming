@@ -8,7 +8,9 @@ void print_rev(char *s)
 {
 	int start = 0;
 
-	for (i = count ; i >= 0 ; i--)
-		_putchar(s[i]);
+	while (s[start])
+		start++;
+	while (start--)
+		_putchar(s[start]);
 	_putchar('\n');
 }

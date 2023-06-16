@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * grt_dnodeint_at_index - returns the
+ * get_dnodeint_at_index - returns the
  * nth node
  * @head: ...
  * @index: ...

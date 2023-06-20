@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strpbk - searches a string for any  bytes
+ * _strpbrk - searches a string for any  bytes
  * @s: first string
  * @accept: second string
  * Return: a pointer to thr nyte if otherwise NULL
  */
-char *_strpbk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
